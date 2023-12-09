@@ -345,4 +345,12 @@ margin-right: 10px;
 display: flex;
 align-items: center;
 }
+.section1 img{
+   width: 70%;
+}
+.article1{
+   font-size: 20px;
+   width: 90%;
+}
+
 }
