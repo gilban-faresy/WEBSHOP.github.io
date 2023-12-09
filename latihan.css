@@ -166,6 +166,7 @@ aside img{
    font-size:20px;
    border-radius:20px 20px 20px 20px;
    transition: 0.2s;
+   margin-top:10px;
 }
 .box2:hover{
    border:2px solid black;
@@ -182,6 +183,7 @@ aside img{
    font-size: 20px;
    border-radius:20px 20px 20px 20px;
    transition: 0.2s;
+   margin-top:10px;
 }
 .box3:hover{
    border:2px solid black;
@@ -190,11 +192,11 @@ aside img{
    transition: 0.2s;
    width: 203px;
 }
-.kotak2{
+/* .kotak2{
    display:flex;
    justify-content: center;
    margin-top:20px;
-}
+} */
 .kotak2 img{
    border-radius:20px 20px 0 0;
 }
@@ -372,8 +374,10 @@ align-items: center;
    width: 90%;
 }
 .div-section2{
-   flex-direction: column;
+   flex-direction:column;
+
 }
+
 .section3{
    height: auto;
    padding-bottom: 20px;
@@ -388,4 +392,27 @@ align-items: center;
 .kotak1{
    justify-items: center;
 }
+.section4{
+   flex-direction: column;
+   height: auto;
+}
+.section4 img{
+   padding: 10px 0 10px 0;
+
+}
+.button-section4 {
+   margin-left:20px ;
+
+}
+.section5{
+   height: auto;
+   padding-bottom: 30px;
+}
+.footer{
+   flex-wrap: wrap;
+}
+.footer h3{
+   margin-top: 5%;
+}
+
 }
