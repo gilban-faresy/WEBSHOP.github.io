@@ -431,10 +431,10 @@ align-items: center;
       width: 30%;
    }
 
-   .section1{
+   /* .section1{
    
    
-}
+} */
 
 .div-section2{
    flex-direction: column;
