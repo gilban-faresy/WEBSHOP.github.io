@@ -321,7 +321,7 @@ aside img{
    visibility: visible;
    pointer-events: auto;
 } */
-@media(min-width:320px) and (max-width:600px){
+@media(min-width:320px) and (max-width:760px){
    nav ul{
       display: none;
    }
