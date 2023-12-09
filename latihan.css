@@ -404,13 +404,14 @@ align-items: center;
 .section4{
    flex-direction: column;
    height: auto;
+   text-align: center;
 }
 .section4 img{
    padding: 10px 0 10px 0;
 
 }
 .button-section4 {
-   margin-left:20px ;
+   margin-left:25% ;
 
 }
 .section5{
