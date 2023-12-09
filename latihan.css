@@ -17,7 +17,9 @@ body{
    font-weight: bold;
    font-size: 20px;
    transition-duration: 1s;
+   
 }
+
 .navbar :hover{
    font-weight:bolder;
    background-color: rgba(0, 0, 0, 0.36);
@@ -28,8 +30,8 @@ body{
    
 }
 .H2{
-margin-top:27px;
-margin-right:20px 
+   display: flex;
+   align-items: center;
 }
 header{
    width:90%;
@@ -39,12 +41,9 @@ header{
    display:flex;
    justify-content: space-between;
    border-radius: 0  0 20px 20px;
-   
 }
 .menu-icon{
-   margin-left: 10px;
-   display: flex;
-   align-items: center;
+display:none;
 }
 .section1{
    background-color: yellow;
@@ -323,6 +322,27 @@ aside img{
 } */
 @media(min-width:320px) and (max-width:760px){
    nav ul{
-      display: none;
+      /* display: none; */
+      width: 100%;
+      flex-direction: column;
    }
+
+   nav ul.hidden{
+      display:none;
+   }
+
+header{
+   height:auto;
+   padding: 8px;
+}
+.H2logo{
+   display: flex;
+   align-items: center;
+}
+
+.menu-icon{
+margin-right: 10px;
+display: flex;
+align-items: center;
+}
 }
