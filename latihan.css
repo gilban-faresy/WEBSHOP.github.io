@@ -55,8 +55,8 @@ display:none;
 .article1{
    font-size: 30px;
    width:450px;
-   margin: 50px 0 0 50px;
-   
+   margin: 50px 0 0 0;
+   padding-left: 50px;
 }
 
 .section1 button{
@@ -379,7 +379,12 @@ align-items: center;
 }
 .article1{
    font-size: 20px;
-   width: 90%;
+   width: auto;
+   padding: 0px;
+   text-align: center;
+}
+.article1 button{
+   margin-left: 34%;
 }
 .div-section2{
    flex-direction:column;
@@ -448,8 +453,7 @@ align-items: center;
    display: grid;
    grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
    justify-content: space-around;
-   margin-top:30px;
-   
+   margin-top:30px; 
 }
 
 .section4{
